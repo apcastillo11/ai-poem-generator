@@ -7,38 +7,41 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autocomplete="off"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://grand-licorice-3046f2.netlify.app/" target="_blank"
-        >Alejandra Castillo</a
-      >
-      and is
-      <a
-        href="https://github.com/apcastillo11/ai-poem-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://legendary-froyo-d39713.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autocomplete="off"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">The poem will go here</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://grand-licorice-3046f2.netlify.app/" target="_blank"
+          >Alejandra Castillo</a
+        >
+        and is
+        <a
+          href="https://github.com/apcastillo11/ai-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://legendary-froyo-d39713.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
